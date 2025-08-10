@@ -1,0 +1,38 @@
+{
+  "packages": [
+    {
+      "name": "espressif",
+      "maintainer": "Espressif Systems",
+      "websiteURL": "https://github.com/espressif/arduino-esp32",
+      "email": "",
+      "platforms": [
+        {
+          "name": "esp32",
+          "architecture": "xtensa",
+          "version": "3.3.0",
+          "category": "ESP32 Boards",
+          "help": {
+            "online": "https://docs.espressif.com/projects/arduino-esp32/en/latest/"
+          },
+          "archiveFileName": "hardware/esp32/3.3.0/esp32-3.3.0.zip",
+          "checksum": "SHA-256:c8525462e47b37b726c211b71afada0fca5859ba748963e4d967131355716ba2",
+          "size": 24600000,
+          "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.0/esp32-3.3.0.zip",
+          "boards": [
+            {
+              "name": "ESP32 Dev Module",
+              "upload": {
+                "maximum_size": 1310720,
+                "maximum_data_size": 524288
+              },
+              "build": {
+                "core": "esp32",
+                "extra_flags": ""
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
