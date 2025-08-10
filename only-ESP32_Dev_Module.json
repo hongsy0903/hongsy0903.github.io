@@ -1,23 +1,25 @@
 {
   "packages": [
     {
-      "name": "espressif",
+      "name": "esp32",
       "maintainer": "Espressif Systems",
       "websiteURL": "https://github.com/espressif/arduino-esp32",
-      "email": "",
+      "email": "hristo@espressif.com",
+      "help": {
+        "online": "http://esp32.com"
+      },
       "platforms": [
         {
           "name": "esp32",
-          "architecture": "xtensa",
+          "architecture": "esp32",
           "version": "3.3.0",
-          "category": "ESP32 Boards",
-          "help": {
-            "online": "http://esp32.com/"
-          },
-          "archiveFileName": "hardware/esp32/3.3.0/esp32-3.3.0.zip",
-          "checksum": "SHA-256:c8525462e47b37b726c211b71afada0fca5859ba748963e4d967131355716ba2",
-          "size": 24600000,
           "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.0/esp32-3.3.0.zip",
+          "archiveFileName": "esp32-3.3.0.zip",
+          "checksum": "SHA-256:ADD_CHECKSUM_HERE",
+          "size": "2060000",
+          "help": {
+            "online": "https://docs.espressif.com/projects/arduino-esp32/en/latest/"
+          },
           "boards": [
             {
               "name": "ESP32 Dev Module",
@@ -29,6 +31,49 @@
                 "core": "esp32",
                 "extra_flags": ""
               }
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "esp32",
+              "name": "xtensa-esp32-elf-gcc",
+              "version": "1.22.0-75-gbaf03c2-5.2.0"
+            }
+          ]
+        }
+      ],
+      "tools": [
+        {
+          "name": "xtensa-esp32-elf-gcc",
+          "version": "1.22.0-75-gbaf03c2-5.2.0",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://dl.espressif.com/dl/xtensa-esp32-elf-win32-1.22.0-75-gbaf03c2-5.2.0.zip",
+              "archiveFileName": "xtensa-esp32-elf-win32-1.22.0-75-gbaf03c2-5.2.0.zip",
+              "checksum": "SHA-256:b1735be3a24c3aa5edc672a67aeaa0bf0922c01d514a6bb905d5cd3d6fb86399",
+              "size": "78900581"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://dl.espressif.com/dl/xtensa-esp32-elf-osx-1.22.0-75-gbaf03c2-5.2.0.tar.gz",
+              "archiveFileName": "xtensa-esp32-elf-osx-1.22.0-75-gbaf03c2-5.2.0.tar.gz",
+              "checksum": "SHA-256:8bdaef8c88fa5e111837587e1ebd2af93125cba96a6ec7d717fe14803723a69b",
+              "size": "39897281"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://dl.espressif.com/dl/xtensa-esp32-elf-linux64-1.22.0-75-gbaf03c2-5.2.0.tar.gz",
+              "archiveFileName": "xtensa-esp32-elf-linux64-1.22.0-75-gbaf03c2-5.2.0.tar.gz",
+              "checksum": "SHA-256:c65a719545b773149cad7008c618053443f57a9c15e4ad60877ccce0a5eef82a",
+              "size": "37642712"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://dl.espressif.com/dl/xtensa-esp32-elf-linux32-1.22.0-75-gbaf03c2-5.2.0.tar.gz",
+              "archiveFileName": "xtensa-esp32-elf-linux32-1.22.0-75-gbaf03c2-5.2.0.tar.gz",
+              "checksum": "SHA-256:040f7e230941c785e44936236913b1c0585594f140880e2c34758b7be8709cf6",
+              "size": "38978071"
             }
           ]
         }
