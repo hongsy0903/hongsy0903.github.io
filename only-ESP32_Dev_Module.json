@@ -12,7 +12,7 @@
           "version": "3.3.0",
           "category": "ESP32 Boards",
           "help": {
-            "online": "https://docs.espressif.com/projects/arduino-esp32/en/latest/"
+            "online": "http://esp32.com/"
           },
           "archiveFileName": "hardware/esp32/3.3.0/esp32-3.3.0.zip",
           "checksum": "SHA-256:c8525462e47b37b726c211b71afada0fca5859ba748963e4d967131355716ba2",
