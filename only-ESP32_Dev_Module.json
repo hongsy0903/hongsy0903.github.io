@@ -32,9 +32,7 @@
               "core": "esp32",
               "extra_flags": ""
               }
-             }
-            ]
-           }
+            }
           ],
           "toolsDependencies": [
             {
