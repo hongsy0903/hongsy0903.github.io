@@ -6,25 +6,35 @@
       "websiteURL": "https://github.com/espressif/arduino-esp32",
       "email": "hristo@espressif.com",
       "help": {
-        "online": "http://esp32.com"
+        "online": "https://docs.espressif.com/projects/arduino-esp32/en/latest/"
       },
       "platforms": [
         {
           "name": "esp32",
           "architecture": "esp32",
-          "version": "",
+          "version": "3.3.0",
           "category": "ESP32",
-          "url": "",
-          "archiveFileName": "",
-          "checksum": "",
-          "size": "",
+          "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.0/esp32-3.3.0.zip",
+          "archiveFileName": "esp32-3.3.0.zip",
+          "checksum": "SHA-256:c8525462e47b37b726c211b71afada0fca5859ba748963e4d967131355716ba2",
+          "size": "24600000",
           "help": {
-            "online": ""
+            "online": "https://docs.espressif.com/projects/arduino-esp32/en/latest"
           },
           "boards": [
             {
               "name": "ESP32 Dev Board"
-            }
+              "upload": {
+                "maximum_size": 1310720,
+                "maximum_data_size": 524288
+            },
+            "build": {
+              "core": "esp32",
+              "extra_flags": ""
+              }
+             }
+            ]
+           }
           ],
           "toolsDependencies": [
             {
