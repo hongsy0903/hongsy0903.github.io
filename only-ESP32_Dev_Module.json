@@ -618,6 +618,34 @@
               "size": "40665"
             }
           ]
+        },
+        {
+          "packager": "Espressif",
+          "name": "xtensa-esp32-elf-gcc",
+          "version": "1.22.0-80-g6c4433a-5.2.0",
+          "systems": [
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://dl.espressif.com/dl/xtensa-esp32-elf-linux64-1.22.0-80-g6c4433a-5.2.0.tar.gz",
+              "archiveFileName": "xtensa-esp32-elf-linux64-1.22.0-80-g6c4433a-5.2.0.tar.gz",
+              "checksum": "SHA-256:58a73e46d8b16ec98f00f22a1b07c88cc13e8cbb7f73938bb37e2eaf8e86bc6e",
+              "size": "277000000"
+            }
+          ]
+        },
+        {
+          "packager": "Espressif",
+          "name": "esptool_py",
+          "version": "5.0.2",
+          "systems": [
+            {
+              "host": "any",
+              "url": "https://github.com/espressif/esptool/releases/download/v5.0.2/esptool-v5.0.2.zip",
+              "archiveFileName": "esptool-v5.0.2.zip",
+              "checksum": "SHA-256:b60b0d819c951a44be5c2be35b78275b47bb21af1a9e6b8f8ef12311e1ca9d6b",
+              "size": "1100000"
+            }
+          ]
         }
       ]
     }
